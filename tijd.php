@@ -6,7 +6,11 @@ $tijd = readline();
 $tijden = explode(" ", $tijd);
 // "4m"
 // "10s"
-
+$totaal = 0;
+$dag = 0;
+$minuten = 0;
+$uur = 0;
+$seconden =  0;
 foreach ($tijden as $tijd2) {
     // "4m"
     $x = substr($tijd2, -1);
